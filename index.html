@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenCruze</title>
+    <link rel="stylesheet" href="styles/1.css">
+    <link rel="icon" href="images/cruze.png">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="#" id="logo">Cruze.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav id="nav">
+            <a href="#home" id="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <div id="layout">
+            <h1 id="form-title">CONTACT <span>US</span></h1>
+            <form id="form">
+                <label for="name">FULL NAME</label>
+                <input type="text" name="name" placeholder="NAME" required>
+
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" placeholder="EMAIL" required>
+
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" placeholder="PHONE NUMBER" required>
+
+                <label for="options">NEEDED SERVICES</label>
+                <input list="frame" placeholder="Frame Choices" required>
+                <datalist id="frame" name="options">
+                    <option value="GRAPHICS DESIGN">800$</option>
+                    <option value="DIGITAL ART">900$</option>
+                    <option value="UI/UX DESIGN">1000$</option>
+                    <option value="FRONTEND DEVELOPMENT">2000$</option>
+                   
+            
+                </datalist>
+
+                <label for="message">MESSAGE</label>
+                <textarea class="form-control lg" name="message"  cols="20" rows="6"></textarea><br>
+                <input type="submit" id="submit">
+                
+            </form>
+        </div>
+
+    </section>
+    
+    
+</body>
+</html>
